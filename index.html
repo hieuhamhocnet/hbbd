@@ -668,7 +668,7 @@
                     cell.classList.add('carousel__cell');
                     const angle = theta * i;
                     cell.style.transform = `rotateY(${angle}deg) translateZ(${radius}px)`;
-                    cell.innerHTML = `<img src="${img.src}" data-index="${i}" ">`;
+                    cell.innerHTML = `<img src="${img.src}" data-index="${i}">`;
                     carousel.appendChild(cell);
                     cells.push(cell);
                 });
